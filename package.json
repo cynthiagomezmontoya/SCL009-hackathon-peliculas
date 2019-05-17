@@ -1,0 +1,27 @@
+{
+  "name": "peliculas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisseFerreira/SCL009-hackathon-peliculas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DenisseFerreira/SCL009-hackathon-peliculas/issues"
+  },
+  "homepage": "https://github.com/DenisseFerreira/SCL009-hackathon-peliculas#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
