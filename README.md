@@ -3,11 +3,11 @@
 Prototipo de baja fidelidad
 Durante el trabajo se realizaron varios sketches de nuestro prototipo usando papel y lapiz. 
 
-[img]http://img.fenixzone.net/i/mFVHR7J.jpeg[/img]
+<a href="https://ibb.co/VpqWvqT"><img src="https://i.ibb.co/VpqWvqT/propuesta.jpg" alt="propuesta" border="0"></a>
 
 Los prototipos de baja fidelidad, fueron utilizados en la primera entrevista, siendo de gran utilidad para poder realizar los primeros cambios en el proyecto.
 
-[img]http://img.fenixzone.net/i/IPK1bNq.jpeg[/img]
+<a href="https://ibb.co/L6C83J4"><img src="https://i.ibb.co/L6C83J4/20190523-001443.jpg" alt="20190523-001443" border="0"></a>
 
 Prototipo de alta fidelidad
 En diseño de alta fidelidad, se realizaron los cambios que los usuarios recomendaron. 
