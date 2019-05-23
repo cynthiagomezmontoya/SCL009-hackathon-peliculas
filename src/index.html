@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Universo Marvel</title>
+  </head>
+  <body>
+
+    <div class="containerGral container-fluid">
+      <!-- Start HEADER -->
+      <header>
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="/home/laboratoriad318/Escritorio/SCL009-hackathon-peliculas/src/img/logoMarvel.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+    
+                <div class="text-center">
+                  <h2 class="header title">Universo Marvel</h2>
+                </div>
+              </div>
+            </div>
+      </header>
+      <!-- End HEADER -->
+
+      <!-- Start NavBar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container ">
+          <a class="navbar-brand" href="#">HOME</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#" ><span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.marvel.com/comics/list/623/get_started_with_free_issues?&options%5Boffset%5D=0&totalcount=28"">Comic</a>
+                <div class="col-sm-1">
+                    <li class="nav-item">
+                        
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"   data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Peliculas</a >
+                
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <!-- El siguiente div es un contenedor de boton para desplegue de menu en tamaño mediano  -->
+                      <div class="dropdown-divider"></div>
+                       <!-- los siguientes link corresponden a los enlaces redireccion a peliculas por FAS -->
+                  <a class="dropdown-item" href="#">Películas - Marvel Fase 1</a>
+                  <a class="dropdown-item" href="#">Películas - Marvel Fase 2</a>
+                 
+                  <a class="dropdown-item" href="#">Películas - Marvel Fase 3</a>
+
+                </div>
+
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Spoiler</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <section >
+          <div class="buscadorUser container-fluid ">
+              <div class="row">
+                <div class="col-lg-2">
+                    <h2 class="busquedatext ">Search : </h2>
+                </div>
+    
+                <div class="inputBusqueda text-center col-lg-8 col-md-6">
+                    <input id="pelisUser" class="pelisUser form-control " type="text" placeholder="Busca tu pelicula favorita.." >
+                </div>
+                <div class="botonBuscar col-auto col-lg-2">
+                    <button id= "botonBuscar" type="submit" class="btn btn-primary">Movie Go!</button>
+                  </div>
+              </div>
+            </div>
+      </section>
+
+
+      <!-- End NavBar -->
+
+      <!-- Start Section JUMBOTRON -->
+      <section class="containerJumbotron">
+        <div class="jumbotron">
+          <div class="container-fluid">
+                <div class=" row">
+                    <div class="containerPromise justify-content-center col-12 col-lg-6">
+
+                            <div class="PrintPromise ">
+                                    <div id="containerXx"class="containerXx" ></div>
+                            </div>
+
+                            <div class="botonPromise d-flex justify-content-center">
+                                    <button id="butonPrimase " class="butonPrimase btn btn-primary  btn-lg " href="#"> Ver mas </button>
+                            </div>
+                            <div class="infoPremise col-12 "> 
+                                <p class="parrafoExplicativo">La película empieza después de los eventos de Avengers: Endgame, 5​6​ cuando Peter Parker va en un viaje escolar a Europa con sus amigos. Mientras está en el extranjero disfrutando de su viaje, es obligado a unirse a Mysterio para detener a los Elementales, unos extraños seres que nadie sabe de dónde vienen pero dispuestos a acabar con todo lo que se les atreviese en su camino.
+                                </p>
+                            </div>
+                    </div>
+                    <div class="containerImagenPromise  col">
+                        <img class="img-fluid " src="/home/laboratoriad318/Escritorio/SCL009-hackathon-peliculas/src/img/promiseSpiderman.jpg" alt=""/>
+                    </div>  
+                </div>
+           </div>
+        </div>
+      </section>
+
+
+      <section id="searching"  class="searching"></section>
+      <button id="imprimiendoTmdb">probando probando</button>
+      <!-- End Section JUMBOTRON -->
+
+
+
+
+
+         <form action="#">
+            <p> <input type="text" id="search" placeholder="type something" class="form control"></p>
+            <p> <input type="submit" id="search"  class="form control"></p>
+         </form>
+
+         <div id="results">
+          <p>Just testing out the Marvel API pulling some comics. For more information on the API go to <a href="https://developer.marvel.com">developer.marvel.com</a></p>
+        </div>
+    </div>
+
+    <!-- Etiqueta script archivos Bootstrap en proyecto  -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Etiqueta script archivos .js en proyecto  -->
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <script src="cynthia.js"></script>
+    <script src="/home/laboratoriad318/Escritorio/SCL009-hackathon-peliculas/src/jquery/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://apis.google.com/js/client.js"></script>
+  </body>
+</html>
+
